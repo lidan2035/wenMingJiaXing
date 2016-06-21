@@ -22,6 +22,8 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"今天天气真好，外面才36°而已......");
     //-----获取相册-----
     //设置搜索规则
     PHFetchOptions *option=[[PHFetchOptions alloc]init];
